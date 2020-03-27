@@ -1,0 +1,41 @@
+body {
+    background-color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #431EB1;
+
+}
+#content {
+    text-align: center;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    color: black;
+    border-collapse: collapse ;
+    padding: 20px;
+    margin: 20px auto;    
+}
+
+  table, tr, td {
+    border: 2px dotted #00ced1;
+  }
+
+#subtitle{
+      color: #9e379f ;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 700;
+      
+      
+  }
+label {
+    display: block;
+}
+.form {
+    margin: 0 auto;
+    background-color:#e6c3ea ;
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+    padding: 20px;
+}
