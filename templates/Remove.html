@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/static/style.css">
     <title>CodekaSystem</title>
 </head>
 <body>
@@ -28,9 +28,11 @@
                 <h1 id="subtitle">ELIMINAR EMPLEADO</h1>
                 <article>
                     <p>
-                        Desea eliminar a x empleado?
+                        Desea eliminar a {{ emp.nombre }} {{ emp.apellido }}?
                     </p>
-                    <input type="submit" id="eliminar" name="remove" value="Confirmar">
+                    <form method="post" action="">
+                        <input type="submit" id="eliminar" name="remove" value="Confirmar">
+                    </form>
                 </article>
                 
                 
